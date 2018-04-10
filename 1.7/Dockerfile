@@ -2,6 +2,8 @@
 
 FROM adx-base:latest
 
+USER root
+
 EXPOSE 8080
 
 ENV GO_MINOR_VERSION=7 \
