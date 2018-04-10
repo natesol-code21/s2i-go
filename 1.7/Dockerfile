@@ -1,6 +1,6 @@
 # This image provides an environment for building and running Go applications.
 
-FROM openshift/base-centos7
+FROM adx-base:latest
 
 MAINTAINER SoftwareCollections.org <sclorg@redhat.com>
 
