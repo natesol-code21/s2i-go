@@ -2,8 +2,6 @@
 
 FROM adx-base:latest
 
-MAINTAINER SoftwareCollections.org <sclorg@redhat.com>
-
 EXPOSE 8080
 
 ENV GO_MINOR_VERSION=7 \
